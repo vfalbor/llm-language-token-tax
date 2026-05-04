@@ -216,3 +216,7 @@ MIT. Commercial use, modification, redistribution — all permitted.
 ## About
 
 Maintained by [Victor Fernandez Albor](https://github.com/vfalbor). Hosted mitigation of exactly this pattern: https://translation.tokenstree.com
+
+## Articles
+
+- [The Token Is a Phantom Unit](articles/the-token-is-a-phantom-unit.md) — why LLM pricing is built on a unit decoupled from both the work and the hardware (May 2026)
