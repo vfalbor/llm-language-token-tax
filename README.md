@@ -220,3 +220,11 @@ Maintained by [Victor Fernandez Albor](https://github.com/vfalbor). Hosted mitig
 ## Articles
 
 - [The Token Is a Phantom Unit](articles/the-token-is-a-phantom-unit.md) — why LLM pricing is built on a unit decoupled from both the work and the hardware (May 2026)
+
+## Companion benchmark: vs Caveman (May 2026)
+
+After [caveman](https://github.com/JuliusBrussee/caveman) hit 64k stars cutting **output** tokens by 65%, we ran an input-side head-to-head. Same prompts, same tokenizer, three reducers compared.
+
+**Result:** TokensTransfer (LLMLingua-2) saves **52.9%** of input tokens on caveman's own benchmark, vs ~9% for a faithful replica of the caveman-compress skill. They are not competitors — caveman is for output, transfer is for input. Stack them, save on both sides of the bill.
+
+Full numbers, methodology and reproduction script: **[vs-caveman/](vs-caveman/)**

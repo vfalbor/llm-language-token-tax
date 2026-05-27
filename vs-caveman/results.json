@@ -1,0 +1,470 @@
+{
+  "suites": {
+    "A_caveman_native": [
+      {
+        "id": "react-rerender",
+        "tokens_original": 29,
+        "transfer": {
+          "tokens": 14,
+          "saved_pct": 51.7
+        },
+        "translation": {
+          "tokens": 29,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 26,
+          "saved_pct": 10.3
+        },
+        "transfer+caveman": {
+          "tokens": 14,
+          "saved_pct": 51.7
+        }
+      },
+      {
+        "id": "auth-middleware-fix",
+        "tokens_original": 36,
+        "transfer": {
+          "tokens": 17,
+          "saved_pct": 52.8
+        },
+        "translation": {
+          "tokens": 36,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 34,
+          "saved_pct": 5.6
+        },
+        "transfer+caveman": {
+          "tokens": 17,
+          "saved_pct": 52.8
+        }
+      },
+      {
+        "id": "postgres-pool",
+        "tokens_original": 20,
+        "transfer": {
+          "tokens": 9,
+          "saved_pct": 55.0
+        },
+        "translation": {
+          "tokens": 20,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 19,
+          "saved_pct": 5.0
+        },
+        "transfer+caveman": {
+          "tokens": 9,
+          "saved_pct": 55.0
+        }
+      },
+      {
+        "id": "git-rebase-merge",
+        "tokens_original": 25,
+        "transfer": {
+          "tokens": 13,
+          "saved_pct": 48.0
+        },
+        "translation": {
+          "tokens": 25,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 23,
+          "saved_pct": 8.0
+        },
+        "transfer+caveman": {
+          "tokens": 13,
+          "saved_pct": 48.0
+        }
+      },
+      {
+        "id": "async-refactor",
+        "tokens_original": 76,
+        "transfer": {
+          "tokens": 34,
+          "saved_pct": 55.3
+        },
+        "translation": {
+          "tokens": 76,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 71,
+          "saved_pct": 6.6
+        },
+        "transfer+caveman": {
+          "tokens": 34,
+          "saved_pct": 55.3
+        }
+      },
+      {
+        "id": "microservices-monolith",
+        "tokens_original": 33,
+        "transfer": {
+          "tokens": 16,
+          "saved_pct": 51.5
+        },
+        "translation": {
+          "tokens": 33,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 29,
+          "saved_pct": 12.1
+        },
+        "transfer+caveman": {
+          "tokens": 16,
+          "saved_pct": 51.5
+        }
+      },
+      {
+        "id": "pr-security-review",
+        "tokens_original": 54,
+        "transfer": {
+          "tokens": 25,
+          "saved_pct": 53.7
+        },
+        "translation": {
+          "tokens": 54,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 52,
+          "saved_pct": 3.7
+        },
+        "transfer+caveman": {
+          "tokens": 25,
+          "saved_pct": 53.7
+        }
+      },
+      {
+        "id": "docker-multi-stage",
+        "tokens_original": 32,
+        "transfer": {
+          "tokens": 16,
+          "saved_pct": 50.0
+        },
+        "translation": {
+          "tokens": 32,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 28,
+          "saved_pct": 12.5
+        },
+        "transfer+caveman": {
+          "tokens": 16,
+          "saved_pct": 50.0
+        }
+      },
+      {
+        "id": "race-condition-debug",
+        "tokens_original": 28,
+        "transfer": {
+          "tokens": 13,
+          "saved_pct": 53.6
+        },
+        "translation": {
+          "tokens": 28,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 26,
+          "saved_pct": 7.1
+        },
+        "transfer+caveman": {
+          "tokens": 13,
+          "saved_pct": 53.6
+        }
+      },
+      {
+        "id": "error-boundary",
+        "tokens_original": 26,
+        "transfer": {
+          "tokens": 11,
+          "saved_pct": 57.7
+        },
+        "translation": {
+          "tokens": 26,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 22,
+          "saved_pct": 15.4
+        },
+        "transfer+caveman": {
+          "tokens": 11,
+          "saved_pct": 57.7
+        }
+      }
+    ],
+    "B_multilingual": [
+      {
+        "id": "es-django",
+        "tokens_original": 49,
+        "transfer": {
+          "tokens": 25,
+          "saved_pct": 49.0
+        },
+        "translation": {
+          "tokens": 35,
+          "saved_pct": 28.6,
+          "src": "es",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 49,
+          "saved_pct": 0.0
+        },
+        "transfer+caveman": {
+          "tokens": 25,
+          "saved_pct": 49.0
+        }
+      },
+      {
+        "id": "fr-react",
+        "tokens_original": 53,
+        "transfer": {
+          "tokens": 28,
+          "saved_pct": 47.2
+        },
+        "translation": {
+          "tokens": 38,
+          "saved_pct": 28.3,
+          "src": "fr",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 53,
+          "saved_pct": 0.0
+        },
+        "transfer+caveman": {
+          "tokens": 28,
+          "saved_pct": 47.2
+        }
+      },
+      {
+        "id": "de-postgres",
+        "tokens_original": 43,
+        "transfer": {
+          "tokens": 23,
+          "saved_pct": 46.5
+        },
+        "translation": {
+          "tokens": 26,
+          "saved_pct": 39.5,
+          "src": "de",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 43,
+          "saved_pct": 0.0
+        },
+        "transfer+caveman": {
+          "tokens": 23,
+          "saved_pct": 46.5
+        }
+      },
+      {
+        "id": "pt-microservices",
+        "tokens_original": 50,
+        "transfer": {
+          "tokens": 25,
+          "saved_pct": 50.0
+        },
+        "translation": {
+          "tokens": 33,
+          "saved_pct": 34.0,
+          "src": "pt",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 48,
+          "saved_pct": 4.0
+        },
+        "transfer+caveman": {
+          "tokens": 25,
+          "saved_pct": 50.0
+        }
+      },
+      {
+        "id": "it-docker",
+        "tokens_original": 39,
+        "transfer": {
+          "tokens": 18,
+          "saved_pct": 53.8
+        },
+        "translation": {
+          "tokens": 29,
+          "saved_pct": 25.6,
+          "src": "it",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 39,
+          "saved_pct": 0.0
+        },
+        "transfer+caveman": {
+          "tokens": 18,
+          "saved_pct": 53.8
+        }
+      }
+    ],
+    "C_llm_context": [
+      {
+        "id": "ctx-arch",
+        "tokens_original": 215,
+        "transfer": {
+          "tokens": 101,
+          "saved_pct": 53.0
+        },
+        "translation": {
+          "tokens": 215,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 189,
+          "saved_pct": 12.1
+        },
+        "transfer+caveman": {
+          "tokens": 101,
+          "saved_pct": 53.0
+        }
+      },
+      {
+        "id": "ctx-review",
+        "tokens_original": 215,
+        "transfer": {
+          "tokens": 101,
+          "saved_pct": 53.0
+        },
+        "translation": {
+          "tokens": 215,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 189,
+          "saved_pct": 12.1
+        },
+        "transfer+caveman": {
+          "tokens": 101,
+          "saved_pct": 53.0
+        }
+      },
+      {
+        "id": "ctx-team",
+        "tokens_original": 212,
+        "transfer": {
+          "tokens": 98,
+          "saved_pct": 53.8
+        },
+        "translation": {
+          "tokens": 212,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 187,
+          "saved_pct": 11.8
+        },
+        "transfer+caveman": {
+          "tokens": 98,
+          "saved_pct": 53.8
+        }
+      },
+      {
+        "id": "ctx-cost",
+        "tokens_original": 213,
+        "transfer": {
+          "tokens": 99,
+          "saved_pct": 53.5
+        },
+        "translation": {
+          "tokens": 213,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 188,
+          "saved_pct": 11.7
+        },
+        "transfer+caveman": {
+          "tokens": 99,
+          "saved_pct": 53.5
+        }
+      },
+      {
+        "id": "ctx-roll",
+        "tokens_original": 215,
+        "transfer": {
+          "tokens": 102,
+          "saved_pct": 52.6
+        },
+        "translation": {
+          "tokens": 215,
+          "saved_pct": 0.0,
+          "src": "en",
+          "tgt": "en"
+        },
+        "caveman_rules": {
+          "tokens": 189,
+          "saved_pct": 12.1
+        },
+        "transfer+caveman": {
+          "tokens": 102,
+          "saved_pct": 52.6
+        }
+      }
+    ]
+  },
+  "averages": {
+    "A_caveman_native": {
+      "transfer": 52.9,
+      "translation": 0.0,
+      "caveman_rules": 8.6,
+      "transfer+caveman": 52.9
+    },
+    "B_multilingual": {
+      "transfer": 49.3,
+      "translation": 31.2,
+      "caveman_rules": 0.8,
+      "transfer+caveman": 49.3
+    },
+    "C_llm_context": {
+      "transfer": 53.2,
+      "translation": 0.0,
+      "caveman_rules": 12.0,
+      "transfer+caveman": 53.2
+    }
+  }
+}
